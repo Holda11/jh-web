@@ -1,0 +1,28 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-bottom: 1px solid rgba(223, 222, 222, 0.288);
+    z-index: 10;
+  }
+  .nav-container{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .nav_black{
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-bottom: 1px solid rgba(223, 222, 222, 0.288);
+    z-index: 10;
+    transition: 0.5s ease-in-out;
+  }
